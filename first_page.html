@@ -2,34 +2,64 @@
 <html>
     <head>
         <title>Main page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0;"">
         <style>
             button{ 
             border: darkcyan;color: darkorange;font-size: 30px;font-weight: bold;
             }
             body{
+                flex-direction: row;
                 background-color: deepskyblue;
                 background-image: element(panha);
             }
             #a{
-                background-color: dodgerblue;
+                border: 2px solid rgb(0, 0, 0);
+                font-size: 20px;
+                font-weight: bold;
+                background-color: rgb(143, 137, 135);
+                padding: 2px;
+                margin: 2px;
             }
             #b{
-                border: 2px solid coral;
-                font-size: 5px;
+                border: 2px solid rgb(0, 0, 0);
+                font-size: 20px;
                 font-weight: bold;
-                background-color:coral;
+                background-color:rgb(143, 137, 135);
+                margin: 2px;
+                padding: 2px;
             }
-            button:hover {
-                background-color: darkgreen;
+            #c{
+                border:2px solid rgb(0, 0, 0);
+                font-size: 20px;
+                font-weight: bold;
+                background-color: rgb(143, 137, 135);
+                margin: 2px;
+                padding: 2px;
+            }
+            #c:hover {
+                background-color: rgb(44, 44, 44);
+            }
+            #a:hover {
+                background-color: rgb(44, 44, 44);
+            }
+            #b:hover {
+                background-color: rgb(44, 44, 44);
             }
         </style>
     </head>
     <body>
         <div>
     <h1 style="color: crimson; text-align: center ;border: darkblue;">This is Gogo Cambodia</h1>
-    <button link rel="stylesheet" href="https:google.com">CLick me to learn more!</button>
-    <button name="a">About us</button>
-    <button name="b">Learn more</button>
+    <button id="c">CLick me to learn more!</button>
+    <button id="a">About us</button>
+    <button id="b"><a href="https:google.com"><img src="logo1.JPG" alt="google" ></a>
+    </button>
+    </div>
+    <div>
+        <img src="image1.JPG" alt="panha">
+    </div>
+    <div>
+        <img src="image2.JPG" alt="panha2">
     </div>
 </body>
 </html>
