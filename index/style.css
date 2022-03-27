@@ -1,0 +1,91 @@
+
+    body{
+        flex-direction: row;
+        background-image: url(background2.jpeg);
+        margin: 1px;
+        padding: 1px;
+        
+    }
+    #a{
+        border: 2px solid rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        padding: 2px;
+        margin: 2px;
+    }
+    #b{
+        border: 2px solid rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        background-color:rgb(255, 255, 255);
+        margin: 2px;
+        padding: 2px;
+    }
+    #c{
+        border:2px solid rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        margin: 2px;
+        padding: 2px;
+    }
+    #c:hover {
+        background-color: rgb(44, 44, 44);
+    }
+    #a:hover {
+        background-color: rgb(44, 44, 44);
+    }
+    #b:hover {
+        background-color: rgb(44, 44, 44);
+    }
+    a:hover{
+        background-color: cornflowerblue;
+    }
+    a{
+        width: auto;
+        height: auto;
+    }
+    #e{
+        width: 1400px;
+        height:auto;
+        margin: 10px;
+        padding: 10px;
+    }
+    #f{
+        width: auto;height: 900px;
+    }
+    h1{
+        color: black;
+        font-size: 40px;
+        font-family:'Segoe UI';
+        text-align: center;
+        border: black;
+        border-radius: 1px;
+
+    }
+    #p1{
+        color: rgb(129, 112, 75);
+        font-size: medium;
+        font-weight: bold;
+        font-family: sans-serif;
+        border-top: darkcyan;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+    #div1{
+        background-color: burlywood;
+        width: max-content;
+        height:max-content;
+        border-top: darkblue;
+    }
+    #div2
+{
+    background-color: darksalmon;
+    width:auto;
+    height:max-content;
+    border:1px;
+    margin: 2px;
+    padding: 2px;
+}
