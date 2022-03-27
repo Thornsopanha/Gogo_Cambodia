@@ -1,65 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="TE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main page</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0;"">
-        <style>
-            button{ 
-            border: darkcyan;color: darkorange;font-size: 30px;font-weight: bold;
-            }
-            body{
-                flex-direction: row;
-                background-color: deepskyblue;
-                background-image: element(panha);
-            }
-            #a{
-                border: 2px solid rgb(0, 0, 0);
-                font-size: 20px;
-                font-weight: bold;
-                background-color: rgb(143, 137, 135);
-                padding: 2px;
-                margin: 2px;
-            }
-            #b{
-                border: 2px solid rgb(0, 0, 0);
-                font-size: 20px;
-                font-weight: bold;
-                background-color:rgb(143, 137, 135);
-                margin: 2px;
-                padding: 2px;
-            }
-            #c{
-                border:2px solid rgb(0, 0, 0);
-                font-size: 20px;
-                font-weight: bold;
-                background-color: rgb(143, 137, 135);
-                margin: 2px;
-                padding: 2px;
-            }
-            #c:hover {
-                background-color: rgb(44, 44, 44);
-            }
-            #a:hover {
-                background-color: rgb(44, 44, 44);
-            }
-            #b:hover {
-                background-color: rgb(44, 44, 44);
-            }
-        </style>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0;">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div>
-    <h1 style="color: crimson; text-align: center ;border: darkblue;">This is Gogo Cambodia</h1>
+    <h1>This is Gogo Cambodia</h1>
     <button id="c">CLick me to learn more!</button>
     <button id="a">About us</button>
-    <button id="b"><a href="https:google.com"><img src="logo1.JPG" alt="google" ></a>
-    </button>
     </div>
     <div>
-        <img src="image1.JPG" alt="panha">
+        <img id="e" src="image1.JPG" alt="panha">
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
     </div>
     <div>
-        <img src="image2.JPG" alt="panha2">
-    </div>
+        <img id="f" src="image2.JPG" alt="panha2">
 </body>
 </html>
