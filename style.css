@@ -98,9 +98,27 @@
     font-family: 'Courier New', Courier, monospace;
     color: blanchedalmond;
 }
-#div3{
-    background-color: darksalmon;
-    width: auto;
-    height:min-content;
-    border-top: rgba(90, 11, 77, 0.623);
+#div3
+{
+    background-color: rgba(218, 155, 126, 0.932);
+    width:auto;
+    height:max-content;
+    border:1px;
+    margin: 2px;
+    padding: 2px;
+}
+#ok{
+    align-content: flex-end;
+    border-image: 5px;
+    width: 1000px;
+    height: max-content;
+    margin: 10px;
+    padding: 10px;
+}
+#ef{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: right;
+    font-weight: bolder;
 }
